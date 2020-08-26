@@ -41,22 +41,8 @@ public class ChatFragment extends Fragment {
                              Bundle savedInstanceState) {
         root = inflater.inflate(R.layout.fragment_chat, container, false);
         mainActivity = (MainActivity) getActivity();
-        setSwipeListeners();
 
         return root;
     }
 
-    private void setSwipeListeners(){
-        root.setOnTouchListener(new OnSwipeTouchListener(getActivity()){
-            @Override
-            public void onSwipeLeft() {
-                mainActivity.bottomNavigationView.setSelectedItemId(R.id.nav_meals);
-            }
-
-            @Override
-            public void onSwipeRight() {
-                mainActivity.bottomNavigationView.setSelectedItemId(R.id.nav_gps);
-            }
-        });
-    }
 }

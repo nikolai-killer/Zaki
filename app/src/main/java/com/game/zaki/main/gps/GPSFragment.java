@@ -43,17 +43,7 @@ public class GPSFragment extends Fragment {
         root =  inflater.inflate(R.layout.fragment_g_p_s, container, false);
         mainActivity = (MainActivity) getActivity();
 
-        setSwipeListeners();
-
-
         return root;
     }
 
-    private void setSwipeListeners(){
-        root.setOnTouchListener(new OnSwipeTouchListener(getActivity()){
-            public void onSwipeLeft() {
-                mainActivity.bottomNavigationView.setSelectedItemId(R.id.nav_chat);
-            }
-        });
-    }
 }

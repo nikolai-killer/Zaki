@@ -12,17 +12,19 @@ public class GS {
 
     public static final long splashLength = 2000;
 
+    public static final int amountPages = 3;
+
 
     public static FirebaseAuth auth() {
         return FirebaseAuth.getInstance();
-    };
+    }
     public static FirebaseFirestore db() {
         return FirebaseFirestore.getInstance();
-    };
+    }
     public static FirebaseFunctions functions() {
         return FirebaseFunctions.getInstance();
-    };
-    public static FirebaseStorage storage() { return FirebaseStorage.getInstance(); };
+    }
+    public static FirebaseStorage storage() { return FirebaseStorage.getInstance(); }
 
 
 

@@ -41,17 +41,8 @@ public class MealsFragment extends Fragment {
                              Bundle savedInstanceState) {
         root = inflater.inflate(R.layout.fragment_meals, container, false);
         mainActivity = (MainActivity) getActivity();
-        setSwipeListeners();
 
         return root;
     }
 
-    private void setSwipeListeners(){
-        root.setOnTouchListener(new OnSwipeTouchListener(getActivity()){
-            @Override
-            public void onSwipeRight() {
-                mainActivity.bottomNavigationView.setSelectedItemId(R.id.nav_chat);
-            }
-        });
-    }
 }
