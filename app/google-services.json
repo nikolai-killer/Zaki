@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "828226711005",
+    "firebase_url": "https://zaki-f1cb2.firebaseio.com",
+    "project_id": "zaki-f1cb2",
+    "storage_bucket": "zaki-f1cb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828226711005:android:d22e77cbbfd12a2ac4da34",
+        "android_client_info": {
+          "package_name": "com.game.zaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828226711005-efvioq76uekvuujelj1elcg7tg7nu24l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBesYOHQ49HBZwhuS4HyAjH7f_r_rigM54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828226711005-efvioq76uekvuujelj1elcg7tg7nu24l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

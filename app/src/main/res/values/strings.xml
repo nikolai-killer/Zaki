@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Zaki</string>
+
+
+    <!-- Entry Stuff -->
+    <string name="BruhEntryString">Bruhh!!!</string>
+    <string name="ChoosePersonString">Who are you?</string>
+    <string name="confirmPersonString">You sure?</string>
+    <string name="enterPasswordHint">Enter your password</string>
+    <string name="loginButtonText">Login</string>
+
+    <!-- Main Stuff -->
+    <string name="gpsNavString">GPS</string>
+    <string name="chatNavString">Chat</string>
+    <string name="mealsNavString">Meals</string>
+
+
+    <!-- General Stuff -->
+    <string name="contentDescription">Image</string>
+</resources>

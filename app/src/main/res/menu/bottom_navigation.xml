@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_gps"
+        android:enabled="true"
+        android:title="@string/gpsNavString"
+        android:icon="@drawable/location_icon" />
+    <item
+        android:id="@+id/nav_chat"
+        android:enabled="true"
+        android:title="@string/chatNavString"
+        android:icon="@drawable/chat_icon" />
+    <item
+        android:id="@+id/nav_meals"
+        android:enabled="true"
+        android:title="@string/mealsNavString"
+        android:icon="@drawable/food_icon" />
+</menu>
