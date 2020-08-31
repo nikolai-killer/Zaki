@@ -12,10 +12,15 @@
         <item name="android:textSize">30dp</item>
     </style>
 
-    <style name="inputLayoutStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="inputPasswordLayoutStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">@color/colorPrimaryDark</item>
         <item name="android:textColorHint">@color/colorPrimaryDark</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="endIconMode">password_toggle</item>
+    </style>
+    <style name="inputMessageLayoutStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
 </resources>

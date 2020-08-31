@@ -7,4 +7,6 @@
     <color name="bottomNavigationDeselected">#353535</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="backgroundColor">#F1F1F1</color>
+    <color name="messageBubbleColorLeft">#FFFFFF</color>
+    <color name="messageBubbleColorRight">#5678d6</color>
 </resources>

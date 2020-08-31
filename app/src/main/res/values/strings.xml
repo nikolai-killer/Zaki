@@ -15,6 +15,11 @@
     <string name="mealsNavString">Meals</string>
 
 
+    <!-- Chat Stuff -->
+    <string name="messageInputHint">Message</string>
+
+
     <!-- General Stuff -->
     <string name="contentDescription">Image</string>
+    <string name="placeholderString">Placeholder</string>
 </resources>

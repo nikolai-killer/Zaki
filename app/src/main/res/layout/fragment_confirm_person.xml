@@ -30,7 +30,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.358"
             android:layout_margin="20dp"
-            style="@style/inputLayoutStyle">
+            style="@style/inputPasswordLayoutStyle">
 
         <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"

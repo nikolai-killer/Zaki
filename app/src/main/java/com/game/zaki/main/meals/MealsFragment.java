@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import com.game.zaki.R;
 import com.game.zaki.main.MainActivity;
-import com.game.zaki.utility.OnSwipeTouchListener;
 
 /**
  * A simple {@link Fragment} subclass.
