@@ -1,19 +1,12 @@
 package com.game.zaki.main;
 
-import android.util.Log;
-import android.view.MenuItem;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager2.widget.ViewPager2;
 import com.game.zaki.R;
-import com.game.zaki.main.chat.ChatFragment;
-import com.game.zaki.main.gps.GPSFragment;
-import com.game.zaki.main.meals.MealsFragment;
 import com.game.zaki.utility.PageAdapter;
-import com.google.android.material.bottomnavigation.BottomNavigationItemView;
-import com.google.android.material.bottomnavigation.BottomNavigationMenu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

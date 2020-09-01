@@ -11,6 +11,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 import com.game.zaki.R;
 
+import java.util.Objects;
+
 public class LoadingSpinnerDialog extends DialogFragment {
 
 
@@ -21,7 +23,7 @@ public class LoadingSpinnerDialog extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        Objects.requireNonNull(Objects.requireNonNull(getDialog()).getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         return inflater.inflate(R.layout.fragment_loading_indicator, container);
     }
 

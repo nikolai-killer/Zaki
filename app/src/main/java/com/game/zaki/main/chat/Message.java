@@ -1,19 +1,22 @@
 package com.game.zaki.main.chat;
 
-import java.sql.Timestamp;
-
 public class Message {
 
+    private String key;
     private String sender;
     private String message;
     private Long sendDate;
+    private boolean received;
+    private boolean uploaded;
 
     public Message() {} // Needed for firebase
 
-    public Message(String sender, String message, Long sendDate) {
+    public Message(String sender, String message, Long sendDate, boolean received, boolean uploaded) {
         this.sender = sender;
         this.message = message;
         this.sendDate = sendDate;
+        this.received = received;
+        this.uploaded = uploaded;
     }
 
     public String getMessage() {
@@ -40,4 +43,27 @@ public class Message {
         this.sendDate = sendDate;
     }
 
+    public boolean isReceived() {
+        return received;
+    }
+
+    public void setReceived(boolean received) {
+        this.received = received;
+    }
+
+    public boolean isUploaded() {
+        return uploaded;
+    }
+
+    public void setUploaded(boolean uploaded) {
+        this.uploaded = uploaded;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 }

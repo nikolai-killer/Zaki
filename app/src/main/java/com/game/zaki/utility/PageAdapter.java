@@ -4,14 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
-import androidx.viewpager2.widget.ViewPager2;
 import com.game.zaki.main.chat.ChatFragment;
 import com.game.zaki.main.gps.GPSFragment;
 import com.game.zaki.main.meals.MealsFragment;
 
 public class PageAdapter extends FragmentStateAdapter {
-
-    private final int count = GS.amountPages;
 
     public PageAdapter(FragmentActivity fragment) {
         super(fragment);
@@ -31,7 +28,7 @@ public class PageAdapter extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return this.count;
+        return GS.amountPages;
     }
 }
 
